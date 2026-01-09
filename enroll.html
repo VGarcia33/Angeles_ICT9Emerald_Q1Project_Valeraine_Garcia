@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OBMC Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-white bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="colorlogo.png" alt="logo" height="50px" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_self">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="courses.html" target="_self" >Courses Offer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="enroll.html" target="_self" >Enroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_self" >Contact Us</a>
+        </li>
+      </ul>
+       <form class="d-flex">
+        <button class="btn btn-primary" type="button">OBMC</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+
+  <!-- Sample Content -->
+  <div class="container-fluid mt-3 bg-light text-dark">
+    <h1 class="text-center text-dark  "><strong> Enroll Now</strong></h1>
+    
+    <p class="text-center text-success "><strong>Please fill out the for completely for enrollment before submission </strong></p>
+
+<div class=" container mt-3">
+		<form>
+
+  <div class="mb-3 mt-3"> 
+	<label for="first">First Name:</label>
+  <input type="first" class="form-control" id="first"	placeholder=" First Name" name="first">
+	</div>
+			
+	<div class="mb-3 mt-3"> 
+	<label for="email">Last Name:</label>
+	<input type="last" class="form-control" id="last"	placeholder=" Last Name" name="last">
+	</div>
+
+  <div class="mb-3 mt-3"> 
+	<label for="birth">Birth Date:<label>
+	<input type="birth" class="form-control" id="birth"	placeholder=" dd/mm/yy" name="birth">
+	</div>
+
+
+
+  <label for="dropdown">Grade</label>
+	<select id="gender" name="gender">
+	<option value="option1">Casa</option>
+	<option value="option2">Grade 1</option>
+	<option value="option3">Grade 2</option>
+  <option value="option4">Grade 3</option> 	
+  <option value="option5">Grade 4</option>
+  <option value="option6">Grade 5</option>
+ 	<option value="option7">Grade 6</option>
+  <option value="option8">Grade 7</option>
+	<option value="option9">Grade 8</option>
+  <option value="option10">Grade 9</option>	
+  <option value="option11">Grade 10</option>	
+  <option value="option12">Grade 11</option>
+  <option value="option13">Grade 12</option>
+
+</select>
+
+<h4 class="font-size: 15px; text-center text-dark"> Contact Details</h4>
+
+            
+<div class="mb-3 mt-3"> 
+<label for="email">Email Address:</label>
+<input type="email" class="form-control" id="email"placeholder=" Enter your email" name="email">
+</div>
+
+
+<div class="mb-3 mt-3"> 
+<label for="contact">Contact Number:</label>
+<input type="contact" class="form-control" id="contact"placeholder=" 0912-345-6789" name="contact">
+</div>
+
+
+ <br>
+			
+<input type="checkbox" id="check3">
+<label for="check3" style="display: inline;">I confirm that the provided information is true and complete</label>
+		
+</form>
+
+<button type="submit" class="btn btn-success">Submit Enrollment</button>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
